@@ -4,6 +4,6 @@ zor(){
     chmod 777 $b
     git add .
     git commit -m "Update"
-    git push
+    git push shell main
 }
 zor $1
